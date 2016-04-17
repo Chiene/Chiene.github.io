@@ -67,5 +67,8 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
+deploy: 
+  type: github
+  repository: git@github.com:Chiene/chiene.github.io.git
+  branch: master
+  
